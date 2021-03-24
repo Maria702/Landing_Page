@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#img" class="active"><img src="img/freeze.png" alt=""></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="#about">Home</a>
+        <a href="#about">About</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div>
+        <img src="img/homePic.jpg" alt="ice-cream" width="100%">
+        <img class="text" src="img/circle-removebg-preview.png" alt="" >
+        <div class="item">
+            <h2 class="head">NEW PRODUCT</h2>
+            <h1 class="para">The Twist of Healthy Yogurt</h1>
+            <img class="text1" src="img/yogurtPic.jpg" alt="" srcset="">
+            <p class="para1"> The website templates has been designed by <br>
+                Free Website Templates <br></p>
+        </div>
+        <div class="footer">
+            <div>
+                <i class="fa fa-cart-plus" style="font-size:36px"></i><br>
+                <p>PRODUCTS</p>
+            </div>
+            <div>
+                <i class="fa fa-sign-language" style="font-size:36px"></i><br>
+                <p>OUR STORY</p>
+            </div>
+            <div>
+                <i class="fa fa-cutlery" style="font-size:36px"></i><br>
+                <p>FLAVORS</p>
+            </div>
+            <div><i class="fa fa-map-marker" style="font-size:36px"></i> <br>
+                <p>LOCATION</p>
+            </div>
+            <br>
+        </div>
+        <div id="footend">
+            <div class="foot">
+                <i class="fa fa-facebook-square" style="font-size:36px"></i> <br>
+            </div>
+            <div class="foot">
+                <i class="fa fa-twitter-square" style="font-size:36px"></i> <br>
+            </div>
+            <div class="foot">
+                <i class="fa fa-google-plus-square" style="font-size:36px"></i> <br>
+            </div>
+            <div class="foot">
+                <i class="fa fa-pinterest-square " style="font-size:36px"></i> <br>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>

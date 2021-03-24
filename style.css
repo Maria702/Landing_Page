@@ -1,0 +1,190 @@
+#body{
+  margin: 0px;
+  padding: 0px;
+}
+.topnav {
+    margin: 0px;
+    overflow: hidden;
+    background-color : #dcdcdc6e;
+  }
+  
+  .topnav a {
+    margin: 15px;
+    margin-left: 100px;
+    float: left;
+    display: block;
+    color: #070707;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: rgba(224, 184, 2, 0.664);
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      margin-top: 5px;
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      margin-bottom: 10px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      margin: 5px;
+      margin-left: 50px;
+      float: none;
+      display: block;
+      text-align: left;
+      font-size: 20px;
+      padding: 2px;
+
+    }
+  
+  }
+  @media screen and (max-width: 600px){
+    .footer div{ 
+      font-size: 10px;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  @media screen and (max-width: 600px){
+     div .item{ 
+      font-size: 10px;
+      padding-bottom: 200px;
+    }
+  }
+  @media screen and (max-width: 600px){
+    #footend .foot i{ 
+      margin: 1px;
+      color: rgb(255, 255, 255);
+    
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    div .text{ 
+     width: 55px;
+     margin: 0 auto;
+     padding: 10px;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 65%;
+   }
+ }
+  
+ @media screen and (max-width: 600px){
+  div .text1{ 
+   width: 280px;
+   margin: 0 auto;
+   padding: 10px;
+   padding-bottom: 50px;
+   text-align: center;
+   position: absolute;
+   top: 87%;
+   left: 12%;
+ }
+}
+ 
+
+.text {
+  margin: 0 auto;
+  padding: 10px;
+  width: 13%;
+  text-align: center;
+  position: absolute;
+  top: 98%;
+  left: 67%;
+
+}
+
+.text1 {
+  margin: 0 auto;
+  padding: 10px;
+  width: 23%;
+  text-align: center;
+  position: absolute;
+  top: 140.3%;
+  left: 60%;
+}
+
+.item{
+    padding: 30px;
+    background-color:#dad0d07e;
+}
+.head{
+    margin-left: 10%;
+    font-family: serif;
+}
+.para{
+    margin-left: 10%;
+    color: red;
+    font-family: serif;
+}
+
+.para1{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.para-img{
+    padding-left: 50%;
+    text-align: right;
+}
+
+.footer{
+    background-color: rgba(201, 204, 26, 0.972);
+    left: 0;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    /* width: 100%; */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa{
+    font-family: monospace;
+    background-color: none;
+}
+
+#footend{
+  left: 0;
+  bottom: 0;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgba(255, 0, 76, 0.74);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+ 
+.foot{
+  margin: 20px;
+}
